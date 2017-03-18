@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+		Title="Device Functionality"
+		BackgroundColor="#008cff"
+		Padding="0,20,0,0"
+		xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DeviceFunctionality" x:Class="DeviceFunctionality.DeviceFunctionalityPage">
+	<StackLayout>
+		<ListView x:Name="menuList" ItemSelected="Handle_ItemSelected">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding Label}" Detail="{Binding Description}" TextColor="White" DetailColor="#6fbdfd"></TextCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>

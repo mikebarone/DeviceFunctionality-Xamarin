@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DeviceFunctionality.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="#008cff" />
+            </Style>
+			 <Style TargetType="ListView">
+                <Setter Property="BackgroundColor" Value="#008cff" />
+				<Setter Property="SeparatorColor" Value="Transparent" />
+            </Style>
+			<Style TargetType="TextCell">
+                <Setter Property="DetailColor" Value="#6fbdfd" />
+				<Setter Property="TextColor" Value="White" />
+            </Style>
+			<Style TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+				<Setter Property="FontSize" Value="14" />
+            </Style>
+			<Style TargetType="Frame">
+                <Setter Property="Padding" Value="20" />
+				<Setter Property="HasShadow" Value="false" />
+				<Setter Property="BackgroundColor" Value="#008cff" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

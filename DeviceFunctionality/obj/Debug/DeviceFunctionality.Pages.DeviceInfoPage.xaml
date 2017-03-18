@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+		BackgroundColor="#008cff"
+		xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DeviceFunctionality.DeviceInfoPage">
+	<Frame>
+		<StackLayout>
+			<Label Text="{Binding Id, StringFormat= 'Device ID: {0}'}"></Label>
+			<Label Text="{Binding Idiom, StringFormat= 'Idiom: {0}'}"></Label>
+			<Label Text="{Binding Model, StringFormat= 'Model: {0}'}"></Label>
+			<Label Text="{Binding Platform, StringFormat= 'Platform: {0}'}"></Label>
+			<Label Text="{Binding Version, StringFormat= 'OS Version: {0}'}"></Label>
+			<Label Text="{Binding VersionNumber, StringFormat= 'OS Version Number: {0}'}"></Label>
+		</StackLayout>
+	</Frame>
+</ContentPage>

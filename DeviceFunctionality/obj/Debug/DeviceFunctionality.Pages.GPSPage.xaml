@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+		BackgroundColor="#008cff"
+		xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DeviceFunctionality.GPSPage">
+	<Frame>
+		<StackLayout>
+			<Label Text="{Binding Time, StringFormat= 'Time: {0}'}"></Label>
+			<Label Text="{Binding Altitude, StringFormat= 'Altitude: {0}'}"></Label>
+			<Label Text="{Binding Latitude, StringFormat= 'Latitude: {0}'}"></Label>
+			<Label Text="{Binding Longitude, StringFormat= 'Longitude: {0}'}"></Label>
+			<Label Text="{Binding Speed, StringFormat= 'Speed: {0}'}"></Label>
+			<Label Text="{Binding Heading, StringFormat= 'Heading: {0}'}"></Label>
+			<Label Text="{Binding Accurancy, StringFormat= 'Accurancy: {0}'}"></Label>
+			<Label Text="{Binding AltitudeAccurancy, StringFormat= 'Altitude Accurancy: {0}'}"></Label>
+		</StackLayout>
+	</Frame>
+</ContentPage>
