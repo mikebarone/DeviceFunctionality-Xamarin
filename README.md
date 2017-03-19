@@ -1,5 +1,5 @@
 # DeviceFunctionality-Xamarin
-Showing Device Info, GPS and Battery Status using Xamarin (iOS/Android)
+Showing Device Info, GPS and Battery Status using Xamarin Cross-Platform (iOS/Android)
 
 You need to install these packages:<br>
 
